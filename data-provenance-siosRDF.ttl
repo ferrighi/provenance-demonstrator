@@ -9,12 +9,12 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://metno.no/variables/lN85yROIG> a prov:Entity ;
+<http://metno.no/variables/RmZH0fnw1> a prov:Entity ;
     vcn:CFSN0022 "air pressure at sea level"^^xsd:string ;
-    prov:wasAttributedTo <http://met.no/activities/gzq5htToj> ;
-    prov:wasGeneratedBy <http://met.no/activities/gzq5htToj> .
+    prov:wasAttributedTo <http://met.no/activities/3TGlHoysn> ;
+    prov:wasGeneratedBy <http://met.no/activities/3TGlHoysn> .
 
-<http://met.no/instrument/Eze5yRCG> a pidinst:MeasuringInstrument,
+<http://met.no/instrument/3mZ0Lysn> a pidinst:MeasuringInstrument,
         prov:Agent ;
     pidinst:alternateIdentifier "barom-met-id"^^xsd:string ;
     pidinst:alternateIdentifierType "serialNumber-1234"^^xsd:string ;
@@ -22,11 +22,11 @@
     pidinst:manufacturerName "Name of Manufactorer"^^xsd:string ;
     pidinst:modelName "12345"^^xsd:string ;
     pidinst:name "Name of the barometer"^^xsd:string ;
-    prov:wasAttributedTo <http://met.no/activities/gzq5htToj> .
+    prov:wasAttributedTo <http://met.no/activities/3TGlHoysn> .
 
-<http://met.no/activities/gzq5htToj> a obo:SIO_001054,
+<http://met.no/activities/3TGlHoysn> a obo:SIO_001054,
         prov:Activity ;
     rdfs:label "measuring"^^xsd:string ;
     prov:startedAtTime "1996-01-01T03:00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <http://met.no/instrument/Eze5yRCG> .
+    prov:wasAssociatedWith <http://met.no/instrument/3mZ0Lysn> .
 
