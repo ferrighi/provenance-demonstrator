@@ -8,13 +8,13 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://metno.no/variables/tRDAIWvDI> a prov:Entity,
+<http://metno.no/variables/RCwV1H6z> a prov:Entity,
         "vnc:CFSN0022"^^xsd:string ;
     rdfs:label "air pressure at sea level"^^xsd:string ;
-    prov:wasAttributedTo <http://metno.no/activities/RS5PXnhwX> ;
-    prov:wasGeneratedBy <http://metno.no/activities/RS5PXnhwX> .
+    prov:wasAttributedTo <http://metno.no/activities/LCwV_tVP> ;
+    prov:wasGeneratedBy <http://metno.no/activities/LCwV_tVP> .
 
-<http://metno.no/instrument/oS5P275I> a prov:Agent,
+<http://metno.no/instrument/RdOyB2i> a prov:Agent,
         "pidinst:MeasuringInstrument"^^xsd:string ;
     pidinst:AlternateIdentifier "12345678"^^xsd:string ;
     pidinst:InstrumentType "barometer"^^xsd:string ;
@@ -22,11 +22,11 @@
     pidinst:alternateIdentifierType "serialNumber"^^xsd:string ;
     pidinst:manufacturerName "Do not know"^^xsd:string ;
     pidinst:modelName "Do not know"^^xsd:string ;
-    prov:wasAttributedTo <http://metno.no/activities/RS5PXnhwX> .
+    prov:wasAttributedTo <http://metno.no/activities/LCwV_tVP> .
 
-<http://metno.no/activities/RS5PXnhwX> a prov:Activity,
+<http://metno.no/activities/LCwV_tVP> a prov:Activity,
         "sio:SIO_001054"^^xsd:string ;
     rdfs:label "measuring"^^xsd:string ;
     prov:startedAtTime "1996-01-01T03:00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <http://metno.no/instrument/oS5P275I> .
+    prov:wasAssociatedWith <http://metno.no/instrument/RdOyB2i> .
 
